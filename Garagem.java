@@ -1,8 +1,6 @@
-public class objects {
-
-    //OBJETOS EXEMPLO
-    // Define a classe Carro
-public class Carro {
+// OBJETOS EXEMPLO
+// Define a classe Carro
+class Carro {
     // Atributos (características) do Carro
     String marca;
     String modelo;
@@ -21,13 +19,13 @@ public class Carro {
     public void frear() {
         System.out.println(marca + " " + modelo + " está freando.");
     }
+}
 
-}
-//1 o objeto MeuComputador 
-//2 a classe é O computador
-//3 o atributo é a caracteristica da classe
-//4 o metodo é o comportamento da classe
-}
+// 1 o objeto MeuComputador 
+// 2 a classe é O computador
+// 3 o atributo é a caracteristica da classe
+// 4 o metodo é o comportamento da classe
+
 public class Garagem {
     public static void main(String[] args) {
         // Criando o primeiro objeto Carro
@@ -55,4 +53,3 @@ public class Garagem {
         carroDoVizinho.frear();
     }
 }
-
